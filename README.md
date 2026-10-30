@@ -6,16 +6,18 @@ I build web applications, desktop tools and games, and I have run my own e-comme
 
 ## Featured projects
 
-### GlobeFair: a virtual career fair (final-year project)
+### GlobeFair: a virtual career fair that runs in the browser
 
-My longest and most complex project: a 3D career fair built in Unity where job seekers and employers sign up, then walk through a large exhibition hall in a third-person view.
+My longest and most complex project. It started as my University of Leicester final-year project and I later rebuilt it for the web: a 3D career fair where job seekers and businesses sign up, and businesses take booths, post listings, answer questions, see who applied and chat with candidates.
 
-- **Two account types:** job seekers and businesses each get their own sign-up, login and dashboard, backed by Firebase Authentication and Cloud Firestore.
-- **CV upload:** job seekers upload a PDF CV from their dashboard, stored in Firebase Storage.
-- **The fair:** one click on "Start fair" shows a loading screen and enters a large 3D exhibition scene (around 19,000 scene objects) with exhibitor stands and a third-person character controller.
-- **Scale:** about 1,000 lines of C# for login, sign-up, dashboards, loading and navigation, plus the exhibition scenes, built on Unity 2021 LTS.
-- **Outcome:** it attracted interest from the University of Leicester's Career & Employability team.
-- **Stack:** Unity, C#, Firebase (Auth, Firestore, Storage).
+- **Web version:** [globefair-web](https://github.com/youssefsadquy/globefair-web) · [live demo](https://globefair-46eb2.web.app/) (password on request)
+- **University submission:** [globefair](https://github.com/youssefsadquy/globefair), with its original 2023-24 commit history
+- **Two account types:** separate sign-up and dashboards for job seekers and businesses, on Firebase Authentication and Cloud Firestore, with CV and logo uploads in Firebase Storage.
+- **Business tools:** booth selection, listings, candidate list, Q&A, booth analytics (visitors, unique visitors, applicants) and chat.
+- **Engineering:** Unity's Firebase SDK does not support WebGL, so I wrote a platform-neutral Firebase layer (about 1,400 lines of C#) with a 17-function JavaScript bridge. The same gameplay code runs on desktop and in the browser.
+- **Scale:** about 7,000 lines of C# and 360 lines of JavaScript, in four languages (English, Spanish, French, Italian).
+- **Outcome:** the university version attracted interest from the University of Leicester's Career & Employability team.
+- **Stack:** Unity, C#, Firebase (Auth, Firestore, Storage), WebGL, Firebase Hosting.
 
 ### [Dock TV](https://github.com/youssefsadquy/dock-tv)
 
