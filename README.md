@@ -1,51 +1,65 @@
-# 👋 Hi, I’m Youssef Sadquy
+# Youssef Sadquy
 
-I'm a recent graduate from the University of Leicester with a First-Class degree (79.72%) in Software Engineering. Over the course of my studies and professional experiences, I've developed a strong foundation in software engineering, web development, and game development. My passion for technology drives me to continuously learn and take on new challenges, whether it's building a full-stack web application or designing an immersive game environment.
+Software engineer based in London. BSc Software Engineering, University of Leicester (First-Class, 79.72%).
 
-## 👀 Interests
-I’m deeply interested in:
-- **Web Development:** Crafting responsive, user-friendly websites using technologies like HTML, CSS, JavaScript, and modern frameworks.
-- **Software Engineering:** Implementing robust software solutions with languages like Python, Java, and C++.
-- **Game Development:** Proficient in Unity, with hands-on experience in game mechanics, scripting, and asset integration.
-- **E-commerce:** Developing and optimizing platforms on Shopify, WooCommerce, and WordPress.
+I build web applications, desktop tools and games, and I have run my own e-commerce business. I like projects that connect software to real things: a career fair, a TV, a bus stop, a voting system.
 
-## 🌱 Current Learning
-I'm always expanding my skill set. Currently, I'm focusing on:
-- **Advanced Game Development:** Enhancing my expertise in Unity, focusing on AI, physics, and complex game environments.
-- **Backend Systems:** Improving my skills in Spring Boot, MVC frameworks, and database management.
-- **Cloud Technologies:** Exploring cloud-based solutions to scale web applications and games.
+## Featured projects
 
-## 💼 Projects & Experience
-### **GlobeFair: Virtual Career Fair Platform**
-For my final year project, I developed "GlobeFair," a virtual career fair platform that received significant attention from the University of Leicester's board and the Career & Employability group.
+### GlobeFair: a virtual career fair (final-year project)
 
-### **Freelance Web Development**
-I’ve delivered custom web solutions for various clients, ensuring seamless functionality and a strong visual appeal. My work ranges from e-commerce sites to business portfolios.
+My longest and most complex project: a 3D career fair built in Unity where job seekers and employers sign up, then walk through a large exhibition hall in a third-person view.
 
-### **Game Development in Unity**
-I have been working on several game projects, from conceptualization to deployment, using Unity. These projects have helped me solidify my skills in game mechanics and scripting.
+- **Two account types:** job seekers and businesses each get their own sign-up, login and dashboard, backed by Firebase Authentication and Cloud Firestore.
+- **CV upload:** job seekers upload a PDF CV from their dashboard, stored in Firebase Storage.
+- **The fair:** one click on "Start fair" shows a loading screen and enters a large 3D exhibition scene (around 19,000 scene objects) with exhibitor stands and a third-person character controller.
+- **Scale:** about 1,000 lines of C# for login, sign-up, dashboards, loading and navigation, plus the exhibition scenes, built on Unity 2021 LTS.
+- **Outcome:** it attracted interest from the University of Leicester's Career & Employability team.
+- **Stack:** Unity, C#, Firebase (Auth, Firestore, Storage).
 
-### **Nero Label Limited**
-As the founder and director of Nero Label Limited, I managed all aspects of the business, from team leadership to strategic planning and execution.
+### [Dock TV](https://github.com/youssefsadquy/dock-tv)
 
-## 💬 Let's Collaborate!
-I'm always open to new opportunities and collaborations, especially in:
-- Web Development
-- Game Development (Unity)
-- Mobile Apps Development
-- Standalone Softwares
-- Data Analytics
-- Software Engineering projects
+A Windows app (Electron) that replaces the ad-filled home screen on Samsung smart TVs with a clean, customisable Dock, and walks you through switching off the TV's tracking.
 
-## 📫 Contact Me
-- **Email:** youssefsadquy@gmail.com
-- **LinkedIn:** [Youssef Sadquy](https://uk.linkedin.com/in/youssef-sadquy-a80723191)
+![Dock TV](https://raw.githubusercontent.com/youssefsadquy/dock-tv/main/docs/design.png)
 
-## 😄 Pronouns: He/Him
+- **Finds and backs up the TV** on the local network, and shows honestly whether the model has been tested.
+- **Privacy clean-up with an undo log:** every setting's old value is recorded first, so one click restores it.
+- **Live designer:** apps, HDMI inputs, weather, London bus times (TfL), prayer times, Spotify, night mode and photo backgrounds, with a preview of the real launcher.
+- **Installs over the network:** builds and signs the app, creating the signing certificate automatically on 2018 to 2022 TVs.
+- **Engineering:** 18 automated tests against a fake TV and a fake SDK, settings validation, and a design that keeps personal data out of the app and the repository.
+- **Stack:** JavaScript, Electron, Tizen web apps, REST APIs. Tested end to end on a Samsung UE55NU7021.
 
-## ⚡ Fun Fact
-I started my own company while still in university and successfully managed it alongside my studies, showcasing my ability to balance multiple high-stakes projects.
+Companion repo: [dock-tv-player](https://github.com/youssefsadquy/dock-tv-player), the small HTTPS page that lets the Dock act as a Spotify device.
 
----
+## Other projects
 
-This GitHub repository is a collection of my work, including academic projects, freelance work, and personal ventures. Feel free to explore my projects, and don't hesitate to reach out if you find something interesting or want to discuss potential collaborations!
+| Project | What it is | Stack |
+|---|---|---|
+| [GEVS Online Voting App](https://github.com/youssefsadquy/GEVS-Online-Voting-App) | A general election voting system: voter registration, one vote per voter, an election commission dashboard and a public REST API. | JavaScript, HTML, CSS |
+| [RefugEAP website](https://github.com/youssefsadquy/RefugEAP-website) | A Java web application with a MySQL database for events and blog pages, with a user manual and setup guide. | Java, MySQL |
+| [Study Scheduler](https://github.com/youssefsadquy/Study-Scheduler) | Software engineering coursework: functional requirements, use cases, class diagrams and a weekly log. | UML, documentation |
+
+## Skills
+
+| | |
+|---|---|
+| **Languages** | JavaScript, Java, Python, C++, C#, SQL, HTML, CSS |
+| **Web and apps** | Node.js, Electron, Spring (MVC), REST APIs, Firebase (Auth, Firestore, Storage), Android |
+| **Games and 3D** | Unity: C# scripting, large 3D scenes, UI and scene management, asset integration |
+| **Data** | Python notebooks, data analytics and big data coursework |
+| **E-commerce** | Shopify, WooCommerce, WordPress |
+| **Tools** | Git and GitHub, IntelliJ, PyCharm, MySQL Workbench |
+
+## Experience
+
+**Founder and director, Nero Label Limited.** Ran all aspects of the business alongside my degree: team leadership, planning and delivery.
+
+**Freelance web developer.** Built custom websites and e-commerce stores for clients, from business portfolios to online shops.
+
+## Get in touch
+
+I am open to opportunities in software engineering, web development and Unity game development.
+
+- Email: [youssefsadquy@gmail.com](mailto:youssefsadquy@gmail.com)
+- LinkedIn: [Youssef Sadquy](https://uk.linkedin.com/in/youssef-sadquy)
