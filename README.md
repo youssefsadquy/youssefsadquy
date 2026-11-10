@@ -10,11 +10,11 @@
 
 ## About
 
-Software engineer based in London with a first-class BSc in Software Engineering from the University of Leicester (79.72%). I build web applications, desktop tools and 3D experiences, and I have run my own e-commerce business.
+Software engineer based in London with a First-Class BSc in Software Engineering from the University of Leicester. I work primarily in JavaScript, C# and Java, building web applications, desktop tools and 3D experiences with a focus on clear architecture, automated testing and software that ships.
 
-I like projects that connect software to real things: a virtual career fair, a smart TV, a bus stop, a voting system. I care about systems that are understandable, tested and actually shipped.
+I have delivered projects end to end — from requirements and system design through implementation, testing and deployment — and have run my own e-commerce business alongside my degree. I am particularly interested in products with a tangible use, from virtual career fairs to smart-TV tooling.
 
-**Currently:** building [CodeRecall](https://github.com/youssefsadquy/CodeRecall), an offline-first study app for software engineers, and open to software engineering, web and Unity roles.
+**Currently:** building [CodeRecall](https://github.com/youssefsadquy/CodeRecall), an offline-first study app for software engineers, and open to software engineering, web development and Unity roles.
 
 ## Currently building
 
