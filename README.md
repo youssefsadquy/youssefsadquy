@@ -12,7 +12,9 @@
 
 Software engineer based in London with a First-Class BSc in Software Engineering from the University of Leicester. I work primarily in JavaScript, C# and Java, building web applications, desktop tools and 3D experiences with a focus on clear architecture, automated testing and software that ships.
 
-I have delivered projects end to end — from requirements and system design through implementation, testing and deployment — and have run my own e-commerce business alongside my degree. I am particularly interested in products with a tangible use, from virtual career fairs to smart-TV tooling.
+I have delivered projects end to end, from requirements and system design through implementation, testing and deployment. I have also run my own e-commerce business alongside my degree, and I am particularly interested in products with a tangible use, from virtual career fairs to smart-TV tooling.
+
+I actively explore new AI tools and agent workflows, integrating model APIs into products and using AI agents for research, development and testing. I focus on where AI genuinely improves the result, treating it as a multiplier for engineering judgement rather than a replacement for it.
 
 **Currently:** building [CodeRecall](https://github.com/youssefsadquy/CodeRecall), an offline-first study app for software engineers, and open to software engineering, web development and Unity roles.
 
@@ -39,7 +41,7 @@ CodeRecall is a Windows study app for engineers returning to code. It combines 2
 
 ## Featured projects
 
-### GlobeFair — a 3D career fair that runs in the browser
+### GlobeFair: a 3D career fair that runs in the browser
 
 [Web version](https://github.com/youssefsadquy/globefair-web) · [Live demo](https://globefair-46eb2.web.app/) (password on request) · [University submission](https://github.com/youssefsadquy/globefair)
 
@@ -52,7 +54,7 @@ My longest and most complex project. It started as my University of Leicester fi
 - **Outcome:** the university version attracted interest from the University of Leicester's Career & Employability team.
 - **Stack:** Unity, C#, Firebase (Auth, Firestore, Storage), WebGL, Firebase Hosting.
 
-### Dock TV — a cleaner home screen for Samsung TVs
+### Dock TV: a cleaner home screen for Samsung TVs
 
 [Repository](https://github.com/youssefsadquy/dock-tv) · [Companion player](https://github.com/youssefsadquy/dock-tv-player)
 
